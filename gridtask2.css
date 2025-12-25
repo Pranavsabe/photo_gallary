@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 2px;
+  box-sizing: border-box;
+  
+}
+
+.parent {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(7, 1fr);    
+  gap: 2px;
+  background-color: black;
+  padding: px;
+  
+}
+
+
+.child {
+ 
+  border-radius: 10px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.child1{
+  background-image:url(./pranav2.jpeg) ;
+  background-size: cover;
+  background-position: center;
+}
+.child2 {
+  grid-column-start:2;
+  grid-column-end:4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image:url(./pranav1.jpeg) ;
+  background-size: cover;
+  background-position:bottom;
+}
+
+.child3{
+  background-image:url(./pranav4.jpeg) ;
+  background-size: cover;
+  background-position: center;
+}
+.child4{
+background-image:url(./classic.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+
+.child5 {
+  grid-column-start:6;
+  grid-column-end:8;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image:url(./rollsroyce.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+.child6{
+background-image:url(./rangerover.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+.child7{
+background-image:url(./pranav3.jpeg) ;
+  background-size: cover;
+  background-position: center;
+}
+.child8{
+background-image:url(./pranav5.jpeg) ;
+  background-size: cover;
+  background-position: top;
+}
+.child9{
+background-image:url(./ninja.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+.child10{
+  background-image:url(./carr\ 2.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+.child11{
+ 
+  grid-row-start: 3;
+  grid-row-end: 5;
+  background-image:url(./alandi1.jpeg) ;
+  background-size: cover;
+  background-position: center;
+}
+.child12{
+  grid-column-start:2;
+  grid-column-end:4;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  border-radius: 30px;
+  background-image:url(./bappa.jpeg) ;
+  background-size: cover;
+  background-position: center;
+}
+.child13{
+  background-image:url(./bappa2.jpeg) ;
+  background-size: cover;
+  background-position: center;
+}
+.child14{
+  background-image:url(./anandsagar.webp) ;
+  background-size: cover;
+  background-position: center;
+}
+.child15{
+  grid-column-start:5;
+  grid-column-end:7;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  background-image:url(shegaon.jpg) ;
+  background-size: cover;
+  background-position: top;
+  /* border-radius:;; */
+  
+}
+.child16{
+  grid-column-start:8;
+  grid-column-end:9;
+  grid-row-start:3;
+  grid-row-end:5;
+  background-image:url(./pceimage.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+.child17{
+  background-image:url(./bappa3.jpeg) ;
+  background-size: cover;
+  background-position: center;
+}
+.child18{
+  background-image:url(./nagpur1.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+
+.child19{
+  grid-column-start:1;
+  grid-column-end:5;
+  background-image:url(./night.avif) ;
+  background-size: cover;
+  background-position:center;
+  justify-content: end;
+  align-items:start;
+  color: white;
+  /* height: 300px; */
+  
+}
+.child20{
+  grid-column-start:5;
+  grid-column-end:6;
+  grid-row-start:5;
+  grid-row-end:8;
+  background-image:url(./alandi2.jpeg) ;
+  background-size: cover;
+  background-position: center;
+}
+.child21{
+  grid-column-start:6;
+  grid-column-end:8;
+  grid-row-start:6;
+  grid-row-end:8;
+  background-image:url(./friends1.jpeg) ;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  align-items:start;
+} 
+.child22{
+  grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:6;
+  grid-row-end:8;
+  background-image:url(./galaxy2.avif) ;
+  background-size: cover;
+  background-position: center; 
+}
+.child23{
+  grid-column-start:8;
+  grid-column-end:9;
+  grid-row-start:5;
+  grid-row-end:7;
+  background-image:url(./krishnabaleram.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+.child24{
+  background-image:url(./Trophy_campus.jpeg) ;
+  background-size: cover;
+  background-position: center;
+}
+.child25{
+  background-image:url(./pceimage2.webp) ;
+  background-size: cover;
+  background-position: center;
+}
+.child26{
+  background-image:url(./universe.webp) ;
+  background-size: cover;
+  background-position: center;
+}.child27{
+  background-image:url(./krishna.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+.child28{
+  background-image:url(./sea.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+.child29{
+  background-image:url(./earth.avif) ;
+  background-size: cover;
+  background-position: center;
+}
+.child30{
+  background-image:url(./friends2.jpeg) ;
+  background-size: cover;
+  background-position: center;
+}
+.child:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px silver;
+
+}
