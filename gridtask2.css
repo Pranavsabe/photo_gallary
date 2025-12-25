@@ -240,3 +240,27 @@ background-image:url(./ninja.jpg) ;
   box-shadow: 0 4px 8px silver;
 
 }
+@media (max-width: 600px) {
+  .parent {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    height: auto;
+  }
+
+  .child {
+    grid-column: auto !important;
+    grid-row: auto !important;
+    height: 220px;
+    border-radius: 15px;
+  }
+
+  .child19,
+  .child21 {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+    font-size: 18px;
+  }
+}
+
+
