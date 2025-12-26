@@ -240,7 +240,7 @@ background-image:url(./ninja.jpg) ;
   box-shadow: 0 4px 8px silver;
 
 }
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .parent {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -261,6 +261,7 @@ background-image:url(./ninja.jpg) ;
     padding: 10px;
     font-size: 18px;
   }
-}
+} */
+
 
 
